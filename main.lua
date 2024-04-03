@@ -1,4 +1,3 @@
-end
 print("cmm")
 repeat wait() until game:IsLoaded()
 repeat wait() until game.Players.LocalPlayer

@@ -1,3 +1,27 @@
+-- CTE HUB AUTO FISHING ULTRA BOOST FPS
+if not getgenv().Config then 
+    getgenv().Config = {
+        StandInSecretPlace = false, -- Make your character stand in secret place that dev cant find (CTE ON TOP)
+        AutoSendMail = {
+            Gem = {
+                Username = "tvkGem01",
+                MinToSend = 2000000,
+                Enabled = false
+            },
+            Shard = {
+                Username = "",
+                Enabled = false,
+                MinToSend = 50
+            },
+            Huge = {
+                Username = "",
+                Enabled = false
+            }
+        },
+        SendMailWebHook = ""
+       
+    }
+end
 print("cmm")
 repeat wait() until game:IsLoaded()
 repeat wait() until game.Players.LocalPlayer
